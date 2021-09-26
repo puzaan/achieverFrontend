@@ -116,46 +116,54 @@ const SidebarNav = props => {
         </ListItemIcon>
       </ListItem>
 
-      <ListItem className={classes.listItem}>
-        <Typography variant="h6" color="textPrimary" gutterBottom
-        component={Link}
-        to='/about'
+      <ListItem className={classes.listItem} onClick={() => onClose()}>
+        <Typography
+          variant="h6"
+          color="textPrimary"
+          gutterBottom
+          component={Link}
+          to="/about"
+          // href="/about"
         >
           About
         </Typography>
-        
       </ListItem>
 
-
-      <ListItem className={classes.listItem}>
-        <Typography variant="h6" color="textPrimary" gutterBottom
-        component={Link}
-        to='/service'
+      <ListItem className={classes.listItem} onClick={() => onClose()}>
+        <Typography
+          variant="h6"
+          color="textPrimary"
+          gutterBottom
+          component={Link}
+          to="/service"
         >
           Services
         </Typography>
-        
       </ListItem>
 
-      <ListItem className={classes.listItem}>
-        <Typography variant="h6" color="textPrimary" gutterBottom
-        component={Link}
-        to='/career-list'
+      <ListItem className={classes.listItem} onClick={() => onClose()}>
+        <Typography
+          variant="h6"
+          color="textPrimary"
+          gutterBottom
+          component={Link}
+          to="/career-list"
         >
           Careers
         </Typography>
-        
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Typography variant="h6" color="textPrimary" gutterBottom
-        component={Link}
-          to='/contact'
+      <ListItem className={classes.listItem} onClick={() => onClose()}>
+        <Typography
+          variant="h6"
+          color="textPrimary"
+          gutterBottom
+          component={Link}
+          to="/contact"
         >
           Contact Us
         </Typography>
-        
       </ListItem>
-      <ListItem className={classes.listItem}>
+      <ListItem className={classes.listItem} onClick={() => onClose()}>
         <Typography variant="h6" color="textPrimary" gutterBottom>
           Traning
         </Typography>
